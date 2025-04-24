@@ -39,6 +39,7 @@ int main() {
     printf("Quantos anos vc tem? \n");
     scanf("%d", &age); // vc n pode colocar espaços
     fgets(name, 10, stdin);
+    name[strlen(name)-1] = '\0';
 
     return 0;
 }
